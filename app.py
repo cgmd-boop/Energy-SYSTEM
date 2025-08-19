@@ -119,7 +119,8 @@ df = pd.DataFrame({
     "Consumo": [100, 120, 110]
 })
 
-numpy
-plotly
+import numpy as np
+import plotly.express as px
+
 
 
