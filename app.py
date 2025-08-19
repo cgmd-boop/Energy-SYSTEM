@@ -110,7 +110,15 @@ elif menu == "Relatório Estratégico":
 
 
 st.markdown(...)
-pandas
+
+import pandas as pd
+
+# Correto
+df = pd.DataFrame({
+    "Mês": ["Jan", "Fev", "Mar"],
+    "Consumo": [100, 120, 110]
+})
+
 numpy
 plotly
 
