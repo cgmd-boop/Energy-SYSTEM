@@ -108,19 +108,10 @@ elif menu == "Relatório Estratégico":
     st.write("Resumo dos dados registrados para análise estratégica.")
     st.download_button("📥 Baixar Relatório", data="Resumo dos dados registrados...", file_name="relatorio_estrategico.txt")
 
-# Instruções para publicação no GitHub e Streamlit
-st.sidebar.markdown("### 🚀 Como publicar no GitHub e rodar no Streamlit")
-st.sidebar.markdown("""
-1. Crie um repositório no GitHub.
-2. Faça upload do arquivo `app.py`.
-3. Crie um arquivo `requirements.txt` com o seguinte conteúdo:
 
 streamlit
 pandas
 numpy
 plotly
 
-4. Acesse [streamlit.io](https://streamlit.io) e clique em 'Deploy'.
-5. Conecte sua conta do GitHub e selecione o repositório.
-6. Escolha o arquivo principal (`app.py`) e clique em 'Deploy'.
-""")
+
