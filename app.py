@@ -109,7 +109,7 @@ elif menu == "Relatório Estratégico":
     st.download_button("📥 Baixar Relatório", data="Resumo dos dados registrados...", file_name="relatorio_estrategico.txt")
 
 
-streamlit
+st.markdown(...)
 pandas
 numpy
 plotly
